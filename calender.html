@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>calender</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .calender{
+            border: 5px solid;
+            width: 100%;
+        }
+        .items{
+            display: flex;
+            flex-wrap: wrap;
+             }
+        .items.for-days{
+            font-size: 12x;
+            font-weight: 600;
+            color:black;
+        }
+        .items.for-numbers{
+            font-size: 15px;
+            color: white;
+        }
+        .items.for-days .item{
+            padding: 0;
+        }
+        .item {
+            flex: 0 1 calc(100% / 7);
+            padding: 10px;
+            text-align: center;
+        }
+        .calender{
+            width:100%;
+            padding: 20px 20px;
+            background-color:lightslategrey;
+             }
+        .title{
+            font-size: 22px;
+            font-weight: bold;
+            margin: 15px 0 25px;
+            padding: 0 10px;
+            text-align: right;
+        }
+        .first:hover{
+            color: red;
+             transition-duration: 0.2s;
+        }
+    </style>
+</head>
+<body>
+     <div class="calender" >
+        <div class="title">APRIL 2024</div>
+        <div class="items for-days">
+            <div class="item first" >MON</div>
+            <div class="item first">TUES</div>
+            <div class="item first">WEDNES</div>
+            <div class="item first">THURS</div>
+            <div class="item first">FRI</div>
+            <div class="item first">SATUR</div>
+            <div class="item first">SUN</div>
+        </div>    
+        <div class="items for-numbers">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+            <div class="item">8</div>
+            <div class="item">9</div>
+            <div class="item">10</div>
+            <div class="item">11</div>
+            <div class="item">12</div>
+            <div class="item">13</div>
+            <div class="item">14</div>
+            <div class="item">15</div>
+            <div class="item">16</div>
+            <div class="item">17</div>
+            <div class="item">18</div>
+            <div class="item">19</div>
+            <div class="item">20</div>
+            <div class="item">21</div>
+            <div class="item">22</div>
+            <div class="item">23</div>
+            <div class="item">24</div>
+            <div class="item">25</div>
+            <div class="item">26</div>
+            <div class="item">27</div>
+            <div class="item">28</div>
+            <div class="item">29</div>
+            <div class="item">30</div>
+        </div>
+       
+
+    </div>
+</body>
+</html>
